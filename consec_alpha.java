@@ -5,7 +5,7 @@ import java.util.Scanner;
  * @author (Sapt-pal)
  * @version (1.0.00)
  */
-public class cons
+public class consec_alpha
 {
     public static void main()
     {
