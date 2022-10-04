@@ -9,15 +9,15 @@ public class consec_alpha
 {
     public static void main()
     {
-        int i, j, L, c, fn = 0;
-        String st, w = "";
-        char ch, che;
+        int fn = 0;
         Scanner in = new Scanner(System.in);
         System.out.println("Enter string: ");
-        st = in.nextLine();
-        L = st.length();
-        for (i = L;i < L;i++){
-            ch = st.charAt(i);c = 0;w  = "";
+        String st = in.nextLine();
+        int L = st.length();
+        int c = 0;
+        for (int i = L; i < L; i++){
+            char ch = st.charAt(i);
+            String w  = "";
             if (ch != ' ')
             {
                 w += ch;
@@ -25,7 +25,8 @@ public class consec_alpha
             }
             else
             {
-                for (j = 0;j < c-1;j++)
+                
+                for (int j = 0; j < c - 1; j++)
                 {
                     if ((((int) w.charAt(j)) + 1) == (int) w.charAt(j + 1))
                     {
