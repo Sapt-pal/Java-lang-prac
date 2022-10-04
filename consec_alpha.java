@@ -9,9 +9,9 @@ public class consec_alpha
 {
     public static void main()
     {
-        int i, j, L, c, fn = 0;
-        String st, w = "";
-        char ch, che;
+        int i; int j; int L; int c; int fn = 0;
+        String st; String w = "";
+        char ch; char che;
         Scanner in = new Scanner(System.in);
         System.out.println("Enter string: ");
         st = in.nextLine();
